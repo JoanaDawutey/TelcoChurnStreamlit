@@ -26,3 +26,5 @@ def dashboard_page():
     plt.figure(figsize=(10,6))
     sns.heatmap(corr, annot=True, cmap = "coolwarm")
     st.pyplot(plt)
+
+    
