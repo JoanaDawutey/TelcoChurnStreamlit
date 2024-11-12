@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # Add an image
-image = Image.open(r"C:\Users\DAVID-PC\Pictures\Telco Churn Image.png")
+image = Image.open("assets/Telco Churn Image.png")
 st.image(image, width= 500)
 
 def home_page():
